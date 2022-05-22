@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Docker ejercicio 1</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="{{ url_for('static',filename='css/header.js') }}"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class= "logo">¿Qué es un contenedor Docker?</div>
+            <nav>
+                <a href="#">Docker</a>
+                <a href="#">Ubuntu</a>
+            </nav>
+        </div> 
+    </header>
+    <section class="contenido wrapper">
+        <p class="justify">Un contenedor es un formato de aislamiento que empaqueta todo el código y las dependencias de una aplicación en un formato estándar 
+        que le permite ejecutarse de manera rápida y confiable en todos los entornos informáticos. Un contenedor Docker es un contenedor ejecutable, 
+        independiente, liviano y popular que incluye todo lo necesario para ejecutar una aplicación, incluidas bibliotecas, herramientas del sistema, 
+        código y tiempo de ejecución. Docker también es una plataforma de software que permite a los desarrolladores crear, probar e implementar 
+        aplicaciones en contenedores rápidamente. </p>
+        <p class="justify">Containers as a Service (CaaS) o los servicios de contenedores son servicios en la nube administrados que administran el ciclo de vida
+        de los contenedores. Los servicios de contenedores ayudan a orquestar (iniciar, detener, escalar) el tiempo de ejecución de los contenedores.
+        Con los servicios de contenedores, usted puede simplificar, automatizar y acelerar el ciclo de vida de implementación y desarrollo de su aplicación.</p> 
+        <p class="justify">Los servicios de contenedores y Docker han experimentado una rápida adopción y han tenido un gran éxito en los últimos años. 
+        Partiendo de una tecnología de código abierto casi desconocida y bastante técnica en 2013, Docker evolucionó y se convirtió en un entorno 
+        de tiempo de ejecución estandarizado que ahora es oficialmente compatible con muchos productos empresariales de Oracle.</p>
+    </section> 
+    <img src="{{ url_for('static',filename='images/docker.webp') }}" width="100" height="100" aling="center">
+</body>
+</html>
