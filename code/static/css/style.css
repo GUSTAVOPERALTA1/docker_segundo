@@ -7,7 +7,12 @@ header {
     margin-bottom:20px;
 }
 body {
-    background: #fffffa;
+    background: hsl(60, 100%, 99%);
+}
+.titulo {
+    text-align: center;
+    font: size 30px;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper {
     width:90%;
@@ -15,7 +20,7 @@ body {
     margin:auto;
     overflow:hidden;
 }
-img.center {
+.img_center {
     display: block;
     margin-left: auto;
     margin-right: auto;
